@@ -1,33 +1,22 @@
 # redux-project-2021
 
-## How I worked on this project
+## About this project
 
-My goal was to simulate a professional work environment.
-
-- I built this app based on Figma designs: [Screenshot of designs]
-- I worked with tasks on a Kanban board: [Screenshot of tasks]
-- I used feature branches and Pull Requests: [Link to example PR]
+- I worked on this to refresh my memory and learn redux-toolkit and practice working with slices and new action. I also wanted to use this project for future reference as well to possibly help speed up development.
 
 ## How to navigate this project
 
-- Somewhat complex stateful logic: [Link to example code on GitHub]
-- Responsive CSS using styled-components: [Link to example code on GitHub]
-- The application fetches data from the XZY API: Examples for the request [link to code on GitHub] and data transformation [link to code on GitHub]
-- Integration tests using React Testing Library: [Link to example test on GitHub]
+- For this project I used React-redux, and styled this project using CSS-modules.
+- The components are separated into their own respective folders.There is store folders which has authorization reducer and counter reducer which are combined into one reducer in the index file using configureStore.
+- There are four branches and each branch was created to sort bookmark important concepts in redux-toolkit, within this project.
 
-## Why I built the project this way
+## Picture of project
 
-- I didn't use a state management library like Redux on purpose. For this app simple `useState` is sufficient. I realized that more and more projects don't use Redux anymore since GraphQL or react-query are often used for data management.
-- styled-components is a great library for styling. It includes an auto-prefixer, uses scoped classes, and allows a seamless integration with JS.
-- My plan is to become a full-stack developer eventually. But for the beginning I focus on the frontend. That's why I decided to use an existing API rather than create a custom server. I have basic backend knowledge as well.
-- Testing is an essential part of production applications. Testing Library is the go-to library in the React community. I covered the essential features of the app with tests.
-
-## If I had more time I would change this
-
-- Set up continuous integration to run the tests and ESLint on every Pull Request
-- Refactor some of the code. Especially this part [link to code on GitHub]
-- Add end-to-end tests with Cypress.
+Home: ![redux-project]('https://res.cloudinary.com/luispineda/image/upload/v1631763119/Screen_Shot_2021-09-15_at_11.31.39_PM_zcr8cg.png)
 
 ## Available Scripts
 
-[List scripts to start or test the app here]
+["start": "react-scripts start",
+"build": "react-scripts build",
+"test": "react-scripts test",
+"eject": "react-scripts eject"]
