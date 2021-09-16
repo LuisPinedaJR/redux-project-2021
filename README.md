@@ -12,7 +12,7 @@
 
 ## Picture of project
 
-Home: ![redux project]('https://res.cloudinary.com/luispineda/image/upload/v1631763119/Screen_Shot_2021-09-15_at_11.31.39_PM_zcr8cg.png')
+Home: ![redux project](https://res.cloudinary.com/luispineda/image/upload/v1631763119/Screen_Shot_2021-09-15_at_11.31.39_PM_zcr8cg.png)
 
 ## Available Scripts
 
